@@ -1,0 +1,1003 @@
+  996  cd demo/
+  997  ls
+  998  codegreen --project-patcher tensorflow_docs
+  999  codegreen project-patcher tensorflow_docs
+ 1000  codegreen project-patcher --project tensorflow_docs
+ 1001  codegreen start-energy-measurement 
+ 1002  (tf2) saurabh@falcon:~/method-energy-dataset/demo$ codegreen start-energy-measurement 
+ 1003  (tf2) saurabh@falcon:~/method-energy-dataset/demo$ codegreen start-energy-measurement /home/saurabh/method-energy-dataset/demo/tensorflow_docs_patched/site/en/tutorials/quickstart/advanced_method-level.py
+ 1004  (tf2) saurabh@falcon:~/method-energy-dataset/demo$ codegreen start-energy-measurement--project /home/saurabh/method-energy-dataset/demo/tensorflow_docs_patched/site/en/tutorials/quickstart/advanced_method-level.py
+ 1005  codegreen start-energy-measurement--project /home/saurabh/method-energy-dataset/demo/tensorflow_docs_patched/site/en/tutorials/quickstart/advanced_method-level.py
+ 1006  codegreen start-energy-measurement --project /home/saurabh/method-energy-dataset/demo/tensorflow_docs_patched/site/en/tutorials/quickstart/advanced_method-level.py
+ 1007  codegreen start-energy-measurement --scripts /home/saurabh/method-energy-dataset/demo/tensorflow_docs_patched/site/en/tutorials/quickstart/advanced_method-level.py
+ 1008  codegreen start-energy-measurement --projects /home/saurabh/method-energy-dataset/demo/tensorflow_docs --scripts /home/saurabh/method-energy-dataset/demo/tensorflow_docs_patched/site/en/tutorials/quickstart/advanced_method-level.py
+ 1009  codegreen start-energy-measurement --project /home/saurabh/method-energy-dataset/demo/tensorflow_docs --scripts /home/saurabh/method-energy-dataset/demo/tensorflow_docs_patched/site/en/tutorials/quickstart/advanced_method-level.py
+ 1010  codegreen project-patcher tensorflow_docs
+ 1011  codegreen project-patcher --project tensorflow_docs
+ 1012  codegreen start-energy-measurement --project /home/saurabh/method-energy-dataset/demo/tensorflow_docs --scripts /home/saurabh/method-energy-dataset/demo/tensorflow_docs_patched/site/en/tutorials/quickstart/advanced_method-level.py
+ 1013  ls
+ 1014  pwd
+ 1015  mkdir projects
+ 1016  cd projects/
+ 1017  ls
+ 1018  git clone git@github.com:SMART-Dal/quantization-greens-icsa24.git
+ 1019  pip3 install autoawq
+ 1020  python -m venv venv
+ 1021  source venv/bin/activate
+ 1022  pip3 install autoawq
+ 1023  pip3 uninstall tokenizer
+ 1024  pip3 install transformers
+ 1025  transformers --v
+ 1026  cd awq/
+ 1027  python awq_llama_7b.py 
+ 1028  nvcc
+ 1029  nvcc --v
+ 1030  cuda
+ 1031  deactivate
+ 1032  python awq_llama_7b.py 
+ 1033  source venv/bin/activate
+ 1034  cd ..
+ 1035  source venv/bin/activate
+ 1036  python awq_llama_7b.py 
+ 1037  cd awq/
+ 1038  python awq_llama_7b.py 
+ 1039  pip install torch
+ 1040  python awq_llama_7b.py 
+ 1041  pip3 install autoawq
+ 1042  pip install --upgrade pip
+ 1043  pip3 install autoawq
+ 1044  pip3 install -u autoawq
+ 1045  pip install torch
+ 1046  python awq_llama_7b.py 
+ 1047  pip install scipy
+ 1048  nvcc
+ 1049  deactivate
+ 1050  nvcc
+ 1051  nvcc --version
+ 1052  cd ..
+ 1053  cd awq/
+ 1054  nvcc --version
+ 1055  pip install --upgrade awq
+ 1056  pip install --upgrade awq_inference_engine
+ 1057  pip install --upgrade torch
+ 1058  source venv/bin/activate
+ 1059  cd awq/
+ 1060  pip install --upgrade awq
+ 1061  pip install awq
+ 1062  pip install --upgrade autoawq
+ 1063  pip install --upgrade torch
+ 1064  python awq_llama_7b.py 
+ 1065  pip install --upgrade transformers
+ 1066  python awq_llama_7b.py 
+ 1067  nvcc --version
+ 1068  sudo
+ 1069  wget https://developer.download.nvidia.com/compute/cuda/12.3.2/local_installers/cuda_12.3.2_545.23.08_linux.run
+ 1070  sudo apt search nvidia-driver
+ 1071  uname
+ 1072  uname --help
+ 1073  uname -a
+ 1074  uname
+ 1075  pip3 install transformers>=4.32.0 optimum>=1.12.0
+ 1076  pip3 install auto-gptq --extra-index-url https://huggingface.github.io/autogptq-index/whl/cu118/  # Use cu117 if on CUDA 11.7
+ 1077  pip3 install transformers>=4.32.0 optimum>=1.12.0
+ 1078  pip3 install auto-gptq --extra-index-url https://huggingface.github.io/autogptq-index/whl/cu118/  # Use cu117 if on CUDA 11.7
+ 1079  cd ..
+ 1080  cd gptq/
+ 1081  python gptq_llama_7b.py 
+ 1082  uname -a
+ 1083  wget https://www.nvidia.com/content/DriverDownloads/confirmation.php?url=/XFree86/Linux-x86_64/535.154.05/NVIDIA-Linux-x86_64-535.154.05.run&lang=us&type=geforcem
+ 1084  python gptq_llama_7b.py 
+ 1085  torch --version
+ 1086  nvidia-smi
+ 1087  nvcc --v
+ 1088  nvcc -v
+ 1089  nvcc --version
+ 1090  python
+ 1091  pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+ 1092  python gptq_llama_7b.py 
+ 1093  pip install torch --index-url https://download.pytorch.org/whl/cu118
+ 1094  nvcc --version
+ 1095  pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu118
+ 1096  cd gptq/
+ 1097  python gptq_llama_7b.py 
+ 1098  cd ..
+ 1099  source venv/bin/ac
+ 1100  source venv/bin/activate
+ 1101  python gptq_llama_7b.py 
+ 1102  cd gptq/
+ 1103  python gptq_llama_7b.py 
+ 1104  cd ..
+ 1105  cd awq/
+ 1106  python awq_llama_7b.py 
+ 1107  nvidia-smi
+ 1108  pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
+ 1109  python awq_llama_7b.py 
+ 1110  cd ..
+ 1111  cd bnb
+ 1112  cd ..
+ 1113  cd gptq/
+ 1114  python gptq_llama_7b.py 
+ 1115  cd ..
+ 1116  cd awq/
+ 1117  python awq_llama_7b.py 
+ 1118  python awq_llama_7b.py python
+ 1119  python
+ 1120  pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
+ 1121  python awq_llama_7b.py 
+ 1122  conda create --name autoawq python=3.10 -y
+ 1123  conda activate autoawq
+ 1124  conda install pytorch=2.0.1 torchvision torchaudio cudatoolkit=11.8 -c pytorch -c nvidia
+ 1125  pip install autoawq
+ 1126  nvidia-smi
+ 1127  nvcc -v
+ 1128  nvcc --v
+ 1129  nvcc --version
+ 1130  python awq_llama_7b.py 
+ 1131  nvidia-smi
+ 1132  uname -a
+ 1133  lsb_release -a
+ 1134  nvidia-smi
+ 1135  nvcc --version
+ 1136  nvidia-smi
+ 1137  nvcc --version
+ 1138  pip install autoawq
+ 1139  nvcc --version
+ 1140  conda activate autoawq
+ 1141  cd awq/
+ 1142  python awq_llama_7b.py 
+ 1143  pip install autoawq
+ 1144  python awq_llama_7b.py 
+ 1145  pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu121
+ 1146  python awq_llama_7b.py 
+ 1147  conda deactivate
+ 1148  conda remove -n autoawq --all
+ 1149  conda create --name autoawq python=3.10 -y
+ 1150  conda activate autoawq
+ 1151  conda install pytorch=2.0.1 torchvision torchaudio cudatoolkit=11.8 -c pytorch -c nvidia
+ 1152  python awq_llama_7b.py 
+ 1153  pip install autoawq
+ 1154  python awq_llama_7b.py 
+ 1155  pip install --upgrade transformers
+ 1156  python awq_llama_7b.py 
+ 1157  conda deactivate
+ 1158  cd ..
+ 1159  . venv/bin/activate
+ 1160  cd awq/
+ 1161  python awq_llama_7b.py 
+ 1162  conda install --upgrdae torch
+ 1163  conda install --upgrade torch
+ 1164  pip install --upgrade torch
+ 1165  conda install --upgrade torchaudio torchvision
+ 1166  pip install --upgrade torchaudio torchvision
+ 1167  python awq_llama_7b.py 
+ 1168  pip install --upgrade torch
+ 1169  python awq_llama_7b.py 
+ 1170  cd ..
+ 1171  cd gptq/
+ 1172  pip install codecarbon
+ 1173  python gptq_llama_7b.py 
+ 1174  nvidia-smi
+ 1175  nvcc --version
+ 1176  cd ..
+ 1177  deactivate
+ 1178  nvcc --version
+ 1179  nvidia-smi
+ 1180  conda activate autoawq
+ 1181  nvidia-smi
+ 1182  /bin/python3 /home/saurabh/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/saurabh/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+ 1183  nvidia-smi
+ 1184  deactivate
+ 1185  nvidia-smi
+ 1186  nvcc --version
+ 1187  nvidia-smi
+ 1188  nvcc --version
+ 1189  nvidia-smi
+ 1190  nvcc --version
+ 1191  nvidia-smi
+ 1192  cd gptq
+ 1193  cd ..
+ 1194  . venv/bin/activate
+ 1195  cd gptq
+ 1196  python gptq_llama_7b.py 
+ 1197  pip3 install transformers>=4.32.0 optimum>=1.12.0
+ 1198  pip install transformers>=4.32.0 optimum>=1.12.0
+ 1199  pip3 install auto-gptq --extra-index-url https://huggingface.github.io/autogptq-index/whl/cu118/  # Use cu117 if on CUDA 11.7
+ 1200  python gptq_llama_7b.py 
+ 1201  pip install torch torchvision torchaudio
+ 1202  python gptq_llama_7b.py 
+ 1203  nvcc ---version
+ 1204  nvcc --version
+ 1205  nvidia-smi
+ 1206  pip3 install torch==2.0.1
+ 1207  python gptq_llama_7b.py 
+ 1208  torch. cuda. is_available()
+ 1209  torch.cuda.is_available()
+ 1210  python
+ 1211  nvidia-smi
+ 1212  nvidia-settings -q NvidiaDriverVersion
+ 1213  nvidia-settings
+ 1214  lspci | grep -i nvidia
+ 1215  grep 10de /lib/udev/rules.d/*
+ 1216  nvidia-settings --version
+ 1217  nvidia-smi
+ 1218  nvcc --version
+ 1219  nvidia-smi
+ 1220  sudo -v
+ 1221  sudo -V
+ 1222  sudo -v
+ 1223  sudo ls
+ 1224  logout
+ 1225  sudo ls
+ 1226  logout
+ 1227  exit
+ 1228  sudo ls
+ 1229  nvidia-smi
+ 1230  nvcc --version
+ 1231  lspci | grep -i nvidia
+ 1232  uname -m && cat /etc/*release
+ 1233  gcc --version
+ 1234  sudo sh cuda_12.3.2_545.23.08_linux.run
+ 1235  ls
+ 1236  wget https://developer.download.nvidia.com/compute/cuda/12.3.2/local_installers/cuda_12.3.2_545.23.08_linux.run
+ 1237  sudo sh cuda_12.3.2_545.23.08_linux.run
+ 1238  pwd /usr/local/cuda-12.
+ 1239  ls /usr/local/cuda-12.
+ 1240  cd /usr/local/cuda-12.3
+ 1241  ls
+ 1242  export PATH=/usr/local/cuda-12.3/bin${PATH:+:${PATH}}
+ 1243  export LD_LIBRARY_PATH=/usr/local/cuda-12.3/lib64                         ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+ 1244  echo $LD_LIBRARY_PATH
+ 1245  nvcc --version
+ 1246  nvidia-smi
+ 1247  sudo apt install nvidia-utils-535
+ 1248  nvidia-smi
+ 1249  sudo reboot
+ 1250  nvidia-smi
+ 1251  nvcc --version
+ 1252  sudo apt install nvidia-cuda-toolkit
+ 1253  nvcc --version
+ 1254  nvidia-smi
+ 1255  sudo apt purge nvidia* libnvidia*
+ 1256  sudo apt install nvidia-driver-530
+ 1257  nvidia-smi
+ 1258  nvcc --version
+ 1259  sudo reboot
+ 1260  nvcc --version
+ 1261  nvidia-smi
+ 1262  wget https://developer.download.nvidia.com/compute/cuda/12.3.2/local_installers/cuda_12.3.2_545.23.08_linux.run
+ 1263  sudo sh cuda_12.3.2_545.23.08_linux.run
+ 1264  nvidia-smi
+ 1265  nvcc --version
+ 1266  export PATH=/usr/local/cuda-12.3/bin${PATH:+:${PATH}}
+ 1267  export LD_LIBRARY_PATH=/usr/local/cuda-12.3/lib64                         ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+ 1268  nvcc --version
+ 1269  nvidia-smi
+ 1270  cd projects/quantization-greens-icsa24/
+ 1271  . venv/bin/activate
+ 1272  cd gptq/
+ 1273  python gptq_llama_7b.py 
+ 1274  cd ..
+ 1275  cd awq/
+ 1276  python awq_llama_7b.py 
+ 1277  sudo reboot
+ 1278  nvidia-smi
+ 1279  nvcc --version
+ 1280  export PATH=/usr/local/cuda-12.3/bin${PATH:+:${PATH}} [200~>> ~/.profile
+ 1281  export PATH=/usr/local/cuda-12.3/bin${PATH:+:${PATH}} >> ~/.profile
+ 1282  source ~/.profile
+ 1283  export LD_LIBRARY_PATH=/usr/local/cuda-12.3/lib64                         ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}} >> ~/.profile
+ 1284  source ~/.profile
+ 1285  nvcc --version
+ 1286  cd projects/quantization-greens-icsa24/awq/
+ 1287  python awq_llama_7b.py 
+ 1288  conda activate autoawq
+ 1289  python awq_llama_7b.py 
+ 1290  pip install --upgrade 'urllib3==1.26.7' --user
+ 1291  python awq_llama_7b.py 
+ 1292  pip install --upgrade torch
+ 1293  python awq_llama_7b.py 
+ 1294  conda install pytorch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 pytorch-cuda=12.1 -c pytorch -c nvidia
+ 1295  python awq_llama_7b.py 
+ 1296  # Base ctransformers with no GPU acceleration
+ 1297  pip install ctransformers>=0.2.24
+ 1298  # Or with CUDA GPU acceleration
+ 1299  pip install ctransformers[cuda]>=0.2.24
+ 1300  # Or with ROCm GPU acceleration
+ 1301  CT_HIPBLAS=1 pip install ctransformers>=0.2.24 --no-binary ctransformers
+ 1302  # Or with Metal GPU acceleration for macOS systems
+ 1303  CT_METAL=1 pip install ctransformers>=0.2.24 --no-binary ctransformers
+ 1304  pip install ctransformers[cuda]>=0.2.24
+ 1305  cd ..
+ 1306  cd ggml/
+ 1307  CD ..
+ 1308  cd ..
+ 1309  cd gguf/
+ 1310  python gguf_llama_7b.py 
+ 1311  cd ..
+ 1312  cd ggml/
+ 1313  python ggml_llama_7b.py 
+ 1314  pip install codecarbon
+ 1315  python ggml_llama_7b.py 
+ 1316  cd ..
+ 1317  cd gguf/
+ 1318  python gguf_llama_7b.py 
+ 1319  cd ..
+ 1320  cd gptq/
+ 1321  python gptq_llama_7b.py 
+ 1322  pip3 install auto-gptq --extra-index-url https://huggingface.github.io/autogptq-index/whl/cu118/  # Use cu117 if on CUDA 11.7
+ 1323  python gptq_llama_7b.py 
+ 1324  pip install optimum>=1.12.0
+ 1325  pip3 install optimum>=1.12.0
+ 1326  python gptq_llama_7b.py 
+ 1327  /bin/python3 /home/saurabh/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/saurabh/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+ 1328  pip install optimum-benchmark
+ 1329  pip install optimum-benchmark[text-generation-inference]
+ 1330  ls
+ 1331  cd gptq/
+ 1332  pip install optimum-benchmark
+ 1333  pip3 install optimum-benchmark
+ 1334  python -m pip install optimum
+ 1335  pip install optimum_benchmark
+ 1336  pip install optimum-benchmark
+ 1337  pip install optimum-benchmark --no-index
+ 1338  pip install --no-index optimum-benchmark
+ 1339  python
+ 1340  pip
+ 1341  pip install --no-index optimum-benchmark
+ 1342  python -m pip install optimum-benchmark
+ 1343  python -m pip install git+https://github.com/huggingface/optimum.git
+ 1344  cd ..
+ 1345  git clone https://github.com/huggingface/optimum-benchmark.git
+ 1346  cd optimum-benchmark/
+ 1347  pip install -e .
+ 1348  pip install optimum-benchmark[text-generation-inference]
+ 1349  cd ..
+ 1350  cd gptq/
+ 1351  python gptq_optimum.py 
+ 1352  cd gptq/
+ 1353  python gptq_optimum.py 
+ 1354  /bin/python3 /home/saurabh/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/saurabh/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+ 1355  cd gpr
+ 1356  cd gptq/
+ 1357  cd gpr
+ 1358  python gptq_optimum.py 
+ 1359  clear
+ 1360  python gptq_optimum.py 
+ 1361  cd projects/
+ 1362  ls
+ 1363  cd quantization-greens-icsa24/
+ 1364  ls
+ 1365  . venv/bin/activate
+ 1366  ls
+ 1367  cd gptq/
+ 1368  python gptq_llama_7b.py 
+ 1369  python gptq_llama_7b.py > output.txt
+ 1370  clear
+ 1371  python gptq_llama_7b.py > output.txt
+ 1372  clear
+ 1373  python gptq_llama_7b.py
+ 1374  /bin/python3 /home/saurabh/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/saurabh/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+ 1375  conda activate tf2
+ 1376  conda deactivate
+ 1377  conda activate autoawq
+ 1378  python gptq_llama_7b.py
+ 1379  python awq_llama_7b.py 
+ 1380  nvcc -v
+ 1381  nvcc --v
+ 1382  nvcc --version
+ 1383  nvcc -version
+ 1384  nvidia-smi
+ 1385  nvcc -version
+ 1386  export PATH=/usr/local/cuda-12.3/bin${PATH:+:${PATH}} >> ~/.profile
+ 1387  export LD_LIBRARY_PATH=/usr/local/cuda-12.3/lib64                         ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}} >> ~/.profile
+ 1388  source ~/.profile
+ 1389  conda activate autoawq
+ 1390  nvcc -version
+ 1391  nvcc --version
+ 1392  python awq_llama_7b.py 
+ 1393  pip install auto_awq
+ 1394  pip install autoawq
+ 1395  python awq_llama_7b.py 
+ 1396  nvcc --version
+ 1397  nvidia-smi
+ 1398  pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu121
+ 1399  python awq_llama_7b.py 
+ 1400  ps a
+ 1401  kill -9 211257
+ 1402  kill -9 211622
+ 1403  cd awq/
+ 1404  python awq_llama_7b.py 
+ 1405  deactivate
+ 1406  conda activate tf2
+ 1407  conda deactivate
+ 1408  conda activate autoawq
+ 1409  nvcc --version
+ 1410  export PATH=/usr/local/cuda-12.3/bin${PATH:+:${PATH}} >> ~/.profile
+ 1411  source ~/.profile
+ 1412  export LD_LIBRARY_PATH=/usr/local/cuda-12.3/lib64                         ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}} >> ~/.profile
+ 1413  nvcc --version
+ 1414  conda activate autoawq
+ 1415  nvcc --version
+ 1416  python autoawq
+ 1417  cd awq/
+ 1418  python autoawq
+ 1419  python awq_llama_7b.py 
+ 1420  cd ..
+ 1421  cd bnb/
+ 1422  python bnb_llama_7b.py 
+ 1423  pip install -q -U bitsandbytes
+ 1424  pip install bitsandbytes
+ 1425  pip install sentencepiece
+ 1426  python bnb_llama_7b.py 
+ 1427  clear
+ 1428  cd ..
+ 1429  cd awq/
+ 1430  python awq_llama_7b.py 
+ 1431  cd ..
+ 1432  cd gguf/
+ 1433  python gguf_llama_7b.py 
+ 1434  conda deactivate
+ 1435  cd ..
+ 1436  . venv/bin/activate
+ 1437  cd gguf/
+ 1438  python gguf_llama_7b.py 
+ 1439  pip install ctransformers
+ 1440  python gguf_llama_7b.py 
+ 1441  pip install ctransformers
+ 1442  python gguf_llama_7b.py 
+ 1443  cd ..
+ 1444  cd ggml/
+ 1445  python ggml_llama_7b.py 
+ 1446  cd ..
+ 1447  cd gptq/
+ 1448  python gptq_llama_7b.py 
+ 1449  nvcc --version
+ 1450  nano /home/$USER/.bashrc
+ 1451  nvcc --version
+ 1452  nano /home/$USER/.bashrc
+ 1453  nvcc --version
+ 1454  nano /home/$USER/.bashrc
+ 1455  nvcc --version
+ 1456  nano /home/$USER/.bashrc
+ 1457  nvcc --version
+ 1458  nano /home/$USER/.bashrc
+ 1459  nvcc --version
+ 1460  ls
+ 1461  nvcc --version
+ 1462  /bin/python3 /home/saurabh/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/saurabh/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+ 1463  git clone git@github.com:ivanradanov/rodinia.git
+ 1464  nano /home/$USER/.bashrc
+ 1465  ls /usr/local/cuda-12.3
+ 1466  cd rodinia_3.1/
+ 1467  make TIMED_CUDA_clean
+ 1468  git clone git@github.com:ivanradanov/rodinia.git
+ 1469  cd ..
+ 1470  git clone git@github.com:ivanradanov/rodinia.git
+ 1471  make TIMED_CUDA_clean
+ 1472  cd rodinia
+ 1473  make TIMED_CUDA_clean
+ 1474  ls /usr/local/cuda-12.3
+ 1475  ls /usr/local/cuda-12.3/samples
+ 1476  git clone https://github.com/NVIDIA/cuda-samples.git
+ 1477  make TIMED_CUDA_clean
+ 1478  make config
+ 1479  cd common/
+ 1480  make config
+ 1481  make TIMED_CUDA_clean
+ 1482  cd ..
+ 1483  nvcc --version
+ 1484  python gptq/gptq_llama_7b.py 
+ 1485  cd gptq/
+ 1486  ls
+ 1487  python gptq_llama_7b.py 
+ 1488  cd ..
+ 1489  cd ggml/
+ 1490  python ggml_llama_7b.py 
+ 1491  clear
+ 1492  python ggml_llama_7b.py 
+
+------------------------------------------------------------------
+
+ 1493  /bin/python3 /home/saurabh/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/saurabh/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+ 1494  make TIMED_CUDA_clean
+ 1495  cd rodinia
+ 1496  make TIMED_CUDA_clean
+ 1497  /bin/python3 /home/saurabh/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/saurabh/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+ 1498  cd rodinia
+ 1499  ls
+ 1500  cd ..
+ 1501  ls
+ 1502  cd rodinia
+ 1503  LS
+ 1504  make TIMED_CUDA_clean
+ 1505  ls
+ 1506  cd rodinia
+ 1507  make TIMED_CUDA_clean
+ 1508  cd common
+ 1509  # For cuda
+ 1510  vim my.host.make.config
+ 1511  ln -s my.host.make.config host.make.config
+ 1512  # For openmp
+ 1513  vim my.openmp.host.make.config
+ 1514  ln -s my.openmp.host.make.config openmp.host.make.config
+ 1515  cd common
+ 1516  # For cuda
+ 1517  vim my.host.make.config
+ 1518  ln -s my.host.make.config host.make.config
+ 1519  # For openmp
+ 1520  vim my.openmp.host.make.config
+ 1521  ln -s my.openmp.host.make.config openmp.host.make.config
+ 1522  cd common
+ 1523  vim my.host.make.config
+ 1524  ln -s my.host.make.config host.make.config
+ 1525  cd ..
+ 1526  make TIMED_CUDA_clean
+ 1527  nvcc --version
+ 1528  where nvcc
+ 1529  ls /usr/local/cuda-12.3
+ 1530  cat ~/.bashrc
+ 1531  ls /usr/local/cuda-12.3
+ 1532  ls bin
+ 1533  ls /usr/local/cuda-12.3/bin
+ 1534  ln -s my.host.make.config host.make.config
+ 1535  make TIMED_CUDA_clean
+ 1536  clear
+ 1537  make TIMED_CUDA_clean
+ 1538  clear
+ 1539  make TIMED_CUDA_clean
+ 1540  make TIMED_CUDA
+ 1541  make MY_VERIFICATION_DISABLE=1 TIMED_CUDA
+ 1542  clear
+ 1543  make TIMED_CUDA_clean
+ 1544  make TIMED_CUDA
+ 1545  make TIMED_CUDA_clean
+ 1546  make TIMED_CUDA
+ 1547  ls
+ 1548  ./scripts/run_timed_cuda.sh
+ 1549  clear
+ 1550  make TIMED_CUDA_clean
+ 1551  ./scripts/cuda_apps.sh 
+ 1552  clear
+ 1553  make TIMED_CUDA_clean
+ 1554  clear
+ 1555  make TIMED_CUDA_clean
+ 1556  clear
+ 1557  make TIMED_CUDA_clean
+ 1558  clear
+ 1559  make TIMED_CUDA
+ 1560  ls /usr/local/cuda-12.3/bin/nvcc
+ 1561  ls /usr/local/cuda-12.3/bin/nvcc/
+ 1562  cd /usr/local/cuda-12.3/bin/nvcc
+ 1563  cd /usr/local/cuda-12.3/\
+ 1564  cd /usr/local/cuda-12.3/
+ 1565  ls
+ 1566  cd bin/
+ 1567  ls
+ 1568  cd nvcc
+ 1569  cd ~/cuda-projects/rodinia
+ 1570  make TIMED_CUDA_clean
+ 1571  make TIMED_CUDA
+ 1572  cd /usr/local/cuda-12.3/\
+ 1573  make TIMED_CUDA
+ 1574  clear
+ 1575  make TIMED_CUDA_clean
+ 1576  make TIMED_CUDA
+ 1577  make TIMED_CUDA_clean
+ 1578  make TIMED_CUDA
+ 1579  cd common/
+ 1580  ln -s my.host.make.config host.make.config~
+ 1581  ln -s my.host.make.config host.make.config
+ 1582  cd ..
+ 1583  make TIMED_CUDA_clean
+ 1584  make TIMED_CUDA
+ 1585  make TIMED_CUDA_clean
+ 1586  make TIMED_CUDA
+ 1587  make TIMED_CUDA_clean
+ 1588  make TIMED_CUDA
+ 1589  clear
+ 1590  make TIMED_CUDA_clean
+ 1591  clear
+ 1592  make TIMED_CUDA
+ 1593  clear
+ 1594  make TIMED_CUDA_clean
+ 1595  clear
+ 1596  make TIMED_CUDA
+ 1597  make TIMED_CUDA_clean
+ 1598  make TIMED_CUDA
+ 1599  ./scripts/run_timed_cuda.sh
+ 1600  clear
+ 1601  make TIMED_CUDA_clean
+ 1602  clear
+ 1603  make TIMED_CUDA
+ 1604  ./scripts/run_timed_cuda.sh
+ 1605  make TIMED_CUDA_clean
+ 1606  make TIMED_CUDA
+ 1607  clear
+ 1608  make TIMED_CUDA_clean
+ 1609  clear
+ 1610  make TIMED_CUDA
+ 1611  make TIMED_CUDA_clean
+ 1612  make TIMED_CUDA
+ 1613  clear
+ 1614  make TIMED_CUDA
+ 1615  ./scripts/run_timed_cuda.sh
+ 1616  make TIMED_CUDA_clean
+ 1617  make TIMED_CUDA
+ 1618  clear
+ 1619  make TIMED_CUDA
+ 1620  make TIMED_CUDA_clean
+ 1621  make TIMED_CUDA
+ 1622  clear
+ 1623  make TIMED_CUDA_clean
+ 1624  cleart
+ 1625  clear
+ 1626  make TIMED_CUDA
+ 1627  clear
+ 1628  make TIMED_CUDA_clean
+ 1629  clear
+ 1630  make TIMED_CUDA
+ 1631  clear
+ 1632  make TIMED_CUDA
+ 1633  ./scripts/run_timed_cuda.sh
+ 1634  ./scripts/cuda_apps.sh 
+ 1635  clear
+ 1636  ./scripts/cuda_apps.sh 
+ 1637  ./scripts/cuda_apps.sh clear
+ 1638  ./scripts/cuda_apps.sh 
+ 1639  clear
+ 1640  ./scripts/run_timed_cuda.sh
+ 1641  ncu -o profile CuVectorAddMulti.exe
+ 1642  ncu
+ 1643  cd /usr/local/cuda-12.3/
+ 1644  ls
+ 1645  cd -
+ 1646  ncu -o profile ./scripts/run_timed_cuda.sh
+ 1647  clear
+ 1648  nv-nsight-cu-cli
+ 1649  ncu
+ 1650  ./scripts/run_timed_cuda.sh
+ 1651  clear
+ 1652  ./scripts/run_timed_cuda.sh
+ 1653  clear
+ 1654  ./scripts/run_timed_cuda.sh
+ 1655  clear
+ 1656  ./scripts/run_timed_cuda.sh
+ 1657  ncu --help
+ 1658  "$DIR/run_timed_common.sh" "cuda" "$BM" ./run
+ 1659  cd scripts/
+ 1660  ./run_timed_common.sh 
+ 1661  ./run_timed_common.sh "cuda" /home/saurabh/cuda-projects/rodinia/scripts/cuda_apps.sh ./run
+ 1662  ./run_timed_common.sh "cuda" "/home/saurabh/cuda-projects/rodinia/scripts/cuda_apps.sh" ./run
+ 1663  ls
+ 1664  clear
+ 1665  cd scripts/
+ 1666  ./run_timed_common.sh "cuda" "/home/saurabh/cuda-projects/rodinia/scripts/cuda_apps.sh" ./run
+ 1667  cd ..
+ 1668  ./scripts/run_timed_common.sh "cuda" "/home/saurabh/cuda-projects/rodinia/scripts/cuda_apps.sh" ./run
+ 1669  ncu
+ 1670  ls
+ 1671  ncu --query-metrics-mode suffix --metrics
+ 1672  ncu --query-metrics-mode suffix --metrics launch__block_dim_x
+ 1673  ncu --query-metrics-mode suffix --metrics "launch__block_dim_x"
+ 1674  cd /home/saurabh/cuda-projects/rodinia/cuda/backprop
+ 1675  ./run
+ 1676  ncu ./run
+ 1677  ncu --nvtx --nvtx-include "Domain A@Range A" ./run\
+ 1678  ncu --nvtx --nvtx-include "Domain A@Range A" ./run
+ 1679  ncu ./run
+ 1680  ncu --mode launch-and-attach ./run
+ 1681  ncu --metrics 15,16,44,45,907,908,84 --target-processes all /backprop ./run
+ 1682  ncu --metrics 15,16,44,45,907,908,84 --target-processes all ./run
+ 1683  ncu --metrics 15,16,44,45,907,908,84 --target-processes all ./backprop ./run
+ 1684  nvidia-smi -a
+ 1685  nvidia-smi
+ 1686  nvcc --version
+ 1687  lsmod | grep nvidia
+ 1688  dpkg -l | grep nvidia
+ 1689  cat /proc/driver/nvidia/version
+ 1690  dpkg -l | grep nvidia
+ 1691  locate nvidia-smi
+ 1692  dmesg
+ 1693  sudo apt-get --purge remove "*nvidia*"
+ 1694  locate nvidia-smi
+ 1695  nvidia-smi
+ 1696  nvcc --version
+ 1697  dpkg -l | grep nvidia
+ 1698  lsmod | grep nvidia
+ 1699  nvidia-smi -a
+ 1700  locate nvidia-smi
+ 1701  /usr/bin/nvidia-smi
+ 1702  locate nvidia-smi
+ 1703  sudo sh cuda_12.3.2_545.23.08_linux.run
+ 1704  cd /home
+ 1705  ls
+ 1706  cd saurabh/
+ 1707  ls
+ 1708  sudo sh cuda_12.3.2_545.23.08_linux.run
+ 1709  nvidia-smi
+ 1710  lsmod | grep nvidia
+ 1711  nvcc --version
+ 1712  cd -
+ 1713  cd /home/saurabh/cuda-projects/rodinia/cuda/backprop
+ 1714  ncu --metrics 15,16,44,45,907,908,84 --target-processes all ./backprop ./run
+ 1715  nvidia-smi
+ 1716  lsmod | grep nvidia
+ 1717  dpkg -l | grep nvidia
+ 1718  sudo reboot
+ 1719  dpkg -l | grep nvidia
+ 1720  lsmod | grep nvidia
+ 1721  nvidia-smi
+ 1722  locate nvidia-smi
+ 1723  nvidia-smi
+ 1724  nvidia-smi -a
+ 1725  sudo apt install nvidia-driver-545
+ 1726  sudo reboot
+ 1727  lsmod | grep nvidia
+ 1728  dpkg -l | grep nvidia
+ 1729  locate libnvidia-ml.so
+ 1730  lspci -vnn | grep VGA -A 12
+ 1731  nvidia-smi -a
+ 1732  locate bashrc
+ 1733  dpkg -l | grep nvidia
+ 1734  sudo dpkg -l | grep nvidia
+ 1735  nvcc --version
+ 1736  dpkg -l | grep nvidia
+ 1737  nvcc --version
+ 1738  nvidia-smi -a
+ 1739  cd  /usr/lib/nvidia-545
+ 1740  ls /usr/lib/nvidia-
+ 1741  sudo reboot
+ 1742  nvidia-smi -a
+ 1743  clear
+ 1744  nvidia-smi -a
+ 1745  nvcc --version
+ 1746  export PATH=/usr/lib/nvidia-cuda-toolkit/bin:$PATH
+ 1747  export PATH=/usr/local/cuda-12.3/bin${PATH:+:${PATH}}
+ 1748  export LD_LIBRARY_PATH=/usr/local/cuda-12.3/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+ 1749  nvidia-smi -a
+ 1750  echo $LD_LIBRARY_PATH
+ 1751  echo $CUDA_HOME
+ 1752  echo $LD_LIBRARY_PATH
+ 1753  nvidia-smi -a
+ 1754  nvidia-smi
+ 1755  ls
+ 1756  ./scripts/run_timed_cuda.sh
+ 1757  ./scripts/run_timed_cuda.sh 
+ 1758  echo $path
+ 1759  echo $PATH
+ 1760  where libnvidia-ml.so
+ 1761  locate libnvidia-ml.so
+ 1762  sudo reboot
+ 1763  nvidia-smi
+ 1764  sudo apt-get update
+ 1765  nvidia-smi
+ 1766  sudo reboot
+ 1767  nvidia-smi
+ 1768  nvcc --version
+ 1769  ./scripts/run_timed_cuda.sh
+ 1770  dpkg -l | grep nvidia
+ 1771  nvidia-smi -a
+ 1772  ncu --metrics 15,16,44,45,907,908,84 --target-processes all ./backprop ./run
+ 1773  cd cuda/backprop
+ 1774  ncu --metrics 15,16,44,45,907,908,84 --target-processes all ./backprop ./run
+ 1775  cd /usr/lib/x86_64-linux-gnu/nsight-compute/target/linux-desktop-glibc_2_11_3-x64
+ 1776  ls
+ 1777  cd ..
+ 1778  ls
+ 1779  locate ncu
+ 1780  clear
+ 1781  echo $PATH
+ 1782  ls
+ 1783  cd ncu
+ 1784  ls
+ 1785  cd n
+ 1786  cd ncu
+ 1787  cd ..
+ 1788  ls
+ 1789  cd linux-desktop-glibc_2_11_3-x64/
+ 1790  export PATH=/usr/lib/x86_64-linux-gnu/nsight-compute/target/linux-desktop-glibc_2_11_3-x64:$PATH
+ 1791  echo $PATH
+ 1792  cd cuda/backprop
+ 1793  ncu --metrics 15,16,44,45,907,908,84 --target-processes all ./backprop ./run
+ 1794  ./scripts/run_timed_cuda.sh
+ 1795  cd ..
+ 1796  ./scripts/run_timed_cuda.sh
+ 1797  cd cuda/backprop
+ 1798  ./run
+ 1799  ncu --metrics 15,16,44,45,907,908,84 --target-processes all ./backprop ./run
+ 1800  ncu --metrics 15 --target-processes all ./backprop ./run
+ 1801  ncu --metrics 15 --target-processes all ./backprop 12097152 ./run
+ 1802  ncu --metrics 15 --target-processes all ./backprop 12097152
+ 1803  ncu --metrics 15,16,44,45,907,908,84 --target-processes all ./backprop 12097152
+ 1804  sudo ncu --metrics 15,16,44,45,907,908,84 --target-processes all ./backprop 12097152
+ 1805  echo $PATH
+ 1806  sudo ncu --metrics 15,16,44,45,907,908,84 --target-processes all ./backprop 12097152
+ 1807  sudo ncu --metrics 15 --target-processes all ./backprop 12097152
+ 1808  sudo ncu --target-processes all ./backprop 12097152
+ 1809  Could not deploy stock section files to "/root/Documents/NVIDIA Nsight Compute/2021.3.1/Sections".
+ 1810  Set the HOME environment variable to a writable directory.Could not deploy stock section files to "/root/Documents/NVIDIA Nsight Compute/2021.3.1/Sections".
+ 1811  Set the HOME environment variable to a writable directory.
+ 1812  cd /root/Documents
+ 1813  ncu --version
+ 1814  echo HOME
+ 1815  echo $HOME
+ 1816  printenv
+ 1817  clear
+ 1818  sudo ncu --metrics 15,16,44,45,907,908,84 --target-processes all ./backprop 12097152
+ 1819  locate NVIDIA Nsight Compute
+ 1820  echo $HOME
+ 1821  cat /home/saurabh/Documents/NVIDIA Nsight Compute/2023.3.1/Sections/version.txt
+ 1822  ncu --metrics 15,16,44,45,907,908,84 --target-processes all ./backprop 12097152
+ 1823  locate /etc/modprobe.d
+ 1824  cd /etc/modprobe.d/
+ 1825  ls
+ 1826  pwd
+ 1827  vim nvidia-graphics-drivers-kms.conf 
+ 1828  echo "options nvidia NVreg_RestrictProfilingToAdminUsers=0" | sudo tee /etc/modprobe.d/nvidia-unrestricted-counters.conf
+ 1829  ls
+ 1830  cat nvidia-unrestricted-counters.conf 
+ 1831  sudo reboot
+ 1832  cd cuda/backprop
+ 1833  ncu --metrics 15,16,44,45,907,908,84 --target-processes all ./backprop 12097152
+ 1834  sudo ncu --metrics 15,16,44,45,907,908,84 --target-processes all ./backprop 12097152
+ 1835  sudo -E ncu --metrics 15,16,44,45,907,908,84 --target-processes all ./backprop 12097152
+ 1836  cd /usr/lib/x86_64-linux-gnu/nsight-compute/target
+ 1837  ls
+ 1838  pwd
+ 1839  ls
+ 1840  cd linux-desktop-glibc_2_11_3-x64/
+ 1841  ls
+ 1842  cd /home/saurabh/Documents/
+ 1843  ls
+ 1844  cd 'NVIDIA Nsight Compute'
+ 1845  ls
+ 1846  printenv
+ 1847  ncu --version
+ 1848  locate 'NVIDIA Nsight Compute'
+ 1849  ncu --section-folder-restore
+ 1850  /home/saurabh/Documents/NVIDIA Nsight Compute
+ 1851  cd /home/saurabh/Documents/NVIDIA Nsight Compute
+ 1852  cd /home/saurabh/Documents/'NVIDIA Nsight Compute'
+ 1853  ls
+ 1854  sudo printenv
+ 1855  which ncu
+ 1856  sudo which ncu
+ 1857  cd ~/cuda-projects/rodinia/cuda/backprop
+ 1858  sudo -E /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1859  echo $QT_QPA_PLATFORM
+ 1860  export QT_QPA_PLATFORM=xcb
+ 1861  echo $QT_QPA_PLATFORM
+ 1862  sudo -E /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1863  sudo api-get install libfontconfig1-dev
+ 1864  sudo apt-get install libfontconfig1-dev
+ 1865  sudo apt-get install libfreetype6-dev
+ 1866  sudo libx11-dev
+ 1867  sudo apt-get install libx11-dev
+ 1868  sudo apt-get install libx11-xcb-dev
+ 1869  sudo apt-get install libxext-dev
+ 1870  sudo apt-get install libxfixes-dev
+ 1871  sudo apt-get install libxi-dev
+ 1872  sudo apt-get install ib
+ 1873  sudo apt-get install libxrender-dev
+ 1874  sudo apt-get install rk5 libsource-highlight-common libsource-highlight4v5 libstdc++-9-dev libtbb-dev libtbb12 libtbbmalloc2 libthrust-dev libvdpau-dev
+ 1875    libxkbcommon-x11-0 node-html5shiv nsight-compute nsight-compute-target ocl-icd-libopencl1 ocl-ic
+ 1876  sudo apt-get install rk5 libsource-highlight-common libsource-highlight4v5 libstdc++-9-dev libtbb-dev libtbb12 libtbbmalloc2 libthrust-dev libvdpau-dev
+ 1877  sudo apt-get install libxcb-cursor-dev libxcb-glx0-dev libxcb-keysyms1-dev libxcb-image0-dev libxcb-shm0-dev
+ 1878  sudo apt-get install libxcb-icccm4-dev libxcb-sync-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-randr0-dev libxcb-render-util0-dev
+ 1879  sudo apt-get install libxcb-util-dev
+ 1880  sudo apt-get install libxcb-xinerama0-dev
+ 1881  sudo apt-get install libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev
+ 1882  sudo -E /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1883  pwd
+ 1884  ls
+ 1885  locate MyReport.ncu-rep
+ 1886  locate ncu-rep
+ 1887  cd /usr/local/cuda-12.3/nsight-compute-2023.3.1
+ 1888  ls
+ 1889  cd sections/
+ 1890  ls
+ 1891  ncu-ui
+ 1892  suda ncu-ui
+ 1893  sudo ncu-ui
+ 1894  export QT_QPA_PLATFORM=wayland
+ 1895  ncu-ui
+ 1896  uname
+ 1897  which bashrc
+ 1898  locate bashrc
+ 1899  clear
+ 1900  echo $ QT_QPA_PLATFORM
+ 1901  echo $QT_QPA_PLATFORM
+ 1902  export QT_QPA_PLATFORM=xcb
+ 1903  export QT_QPA_PLATFORM=offscreen
+ 1904  echo $QT_QPA_PLATFORM
+ 1905  cd cuda/backprop
+ 1906  sudo -E ncu --metrics 15,16,44,45,907,908,84 --target-processes all ./backprop 12097152
+ 1907  sudo -E ncu --version
+ 1908  ncu --version
+ 1909  sudo -E /usr/local/cuda-12.3/bin/ncu --metrics 15,16,44,45,907,908,84 --target-processes all ./backprop 12097152
+ 1910  sudo -E /usr/local/cuda-12.3/bin/ncu  --target-processes all ./backprop 12097152 
+ 1911  sudo -E /usr/local/cuda-12.3/bin/ncu --csv --target-processes all ./backprop 12097152
+ 1912  sudo -E /usr/local/cuda-12.3/bin/ncu --csv ./output.csv --target-processes all ./backprop 12097152
+ 1913  sudo -E /usr/local/cuda-12.3/bin/ncu --csv ./output --target-processes all ./backprop 12097152
+ 1914  sudo -E /usr/local/cuda-12.3/bin/ncu --csv output --target-processes all ./backprop 12097152
+ 1915  sudo -E /usr/local/cuda-12.3/bin/ncu --csv --target-processes all ./backprop 12097152 > output.csv
+ 1916  sudo /usr/local/cuda-12.3/bin/ncu --csv --target-processes all ./backprop 12097152 > output.csv
+ 1917  sudo /usr/local/cuda-12.3/bin/ncu --csv --target-processes all ./backprop 12097152
+ 1918  sudo /usr/local/cuda-12.3/bin/ncu --csv --target-processes all --open-in-ui ./backprop 12097152
+ 1919  sudo /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1920  sudo /usr/local/cuda-12.3/bin/ncu --csv --target-processes all --open-in-ui ./backprop 12097152
+ 1921  sudo /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1922  sudo apt-get install -qq libglu1-mesa-dev libx11-xcb-dev '^libxcb*'
+ 1923  sudo /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1924  export QT_DEBUG_PLUGINS=1
+ 1925  sudo /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1926  sudo apt-get install xcb
+ 1927  sudo /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1928  sudo apt-get install libxcb
+ 1929  sudo apt install libxcb
+ 1930  sudo apt install libxcb1-dev
+ 1931  sudo /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1932  sudo apt install libxcb-util-dev
+ 1933  sudo apt-get install libxcb-util-dev
+ 1934  sudo /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1935  echo $QT_QPA_PLATFORM
+ 1936  export QT_QPA_PLATFORM=offscreen
+ 1937  echo $QT_QPA_PLATFORM
+ 1938  sudo /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1939  export QT_QPA_PLATFORM=xcb
+ 1940  echo $QT_QPA_PLATFORM
+ 1941  sudo /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1942  sudo api-get install libxcb-xinerama0-dev
+ 1943  sudo apt-get install libxcb-xinerama0-dev
+ 1944  sudo /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1945  sudo apt-get install libxcb-randr0-dev libxcb-xtest0-dev libxcb-xinerama0-dev libxcb-shape0-dev libxcb-xkb-dev
+ 1946  sudo -E apt-get install libxcb-randr0-dev libxcb-xtest0-dev libxcb-xinerama0-dev libxcb-shape0-dev libxcb-xkb-dev
+ 1947  sudo -E /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1948  sudo apt install libxcb-cursor0
+ 1949  (base) saurabh@falcon:~/cuda-projects/rodinia/cuda/backprop$ 
+ 1950  (base) saurabh@falcon:~/cuda-projects/rodinia/cuda/backprop$ export QT_QPA_PLATFORM=offscreen
+ 1951  export QT_QPA_PLATFORM=offscreen
+ 1952  sudo -E /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1953  cd cuda/backprop
+ 1954  ls
+ 1955  sudo -E /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1956  cd cuda/backprop
+ 1957  sudo -E /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1958  export QT_DEBUG_PLUGINS=1
+ 1959  sudo -E /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1960  sudo apt-get install libfontconfig1-dev libfreetype6-dev libx11-dev libx11-xcb-dev libxext-dev libxfixes-dev libxi-dev libxrender-dev libxcb1-dev libxcb-glx0-dev libxcb-keysyms1-dev libxcb-image0-dev libxcb-shm0-dev libxcb-icccm4-dev libxcb-sync-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-randr0-dev libxcb-render-util0-dev libxcb-util-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev
+ 1961  export DISPLAY=:0
+ 1962  sudo -E /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1963  sudo apt-get install xorg
+ 1964  sudo -E /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1965  gin meta data QList("xcb")
+ 1966  qt.core.plugin.factoryloader: checking direct
+ 1967  sudo apt install libxcb-cursor0
+ 1968  export QT_QPA_PLATFORM=offscreen
+ 1969  sudo -E /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1970  export QT_QPA_PLATFORM=xcb
+ 1971  sudo -E /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1972  export QT_QPA_PLATFORM=offscreen
+ 1973  sudo -E /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1974  .../platforms$ ldd libqxcb.so
+ 1975  (man ldd
+ 1976  man ldd
+ 1977  where libqxcb.so
+ 1978  locate libqxcb.so
+ 1979  /usr/local/cuda-12.3/bin/ncu --version
+ 1980  sudo /usr/local/cuda-12.3/bin/ncu --version
+ 1981  cd /usr/local/cuda-12.3/nsight-compute-2023.3.1/host/linux-desktop-glibc_2_11_3-x64/Plugins/platforms
+ 1982  ldd libqxcb.so
+ 1983  clear
+ 1984  cd cuda/backprop
+ 1985  sudo -E /usr/local/cuda-12.3/bin/ncu --target-processes all --open-in-ui ./backprop 12097152
+ 1986  sudo -E /usr/local/cuda-12.3/bin/ncu --target-processes all -o ./my_report_1 ./backprop 12097152
+ 1987  sudo -E /usr/local/cuda-12.3/bin/ncu --target-processes all -o ./my_report_2 ./backprop 12097152
+ 1988  clear
+ 1989  cleard
+ 1990  sudo -E /usr/local/cuda-12.3/bin/ncu --target-processes all ./backprop 12097152
+ 1991  sudo -E /usr/local/cuda-12.3/bin/ncu --target-processes all ./backprop 12097152 > test.txt
+ 1992  sudo -E /usr/local/cuda-12.3/bin/ncu --target-processes all -o ./my_report_3 ./backprop 112097152
+ 1993  history
+ 1994  cd ..
+ 1995  history > histor.txt

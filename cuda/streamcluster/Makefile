@@ -19,7 +19,7 @@ OUTPUT =
 	$(NVCC) $(OUTPUT) $(NVCC_FLAGS) -c $< -o $@
 
 %.cpp.o: %.cpp
-	$(CXX) $(OUTPUT) $(CXX_FLAGS) -c $< -o $@
+	$(NVCC) $(OUTPUT) $(CXX_FLAGS) -c $< -o $@
 
 $(EXECUTABLE): $(COBJS) $(CXXOBJS) $(CUOBJS)
 	$(LINKER) -o $(EXECUTABLE) $(COBJS) $(CXXOBJS) $(CUOBJS) $(LINKER_FLAGS)

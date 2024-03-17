@@ -5,7 +5,7 @@ include ../../common/make.config
 
 # Compiler can be set below, or via environment variable
 OPTIMIZE  = yes
-DEBUG     = no
+DEBUG     = yes
 ARCH      = sm_60
 
 #===============================================================================

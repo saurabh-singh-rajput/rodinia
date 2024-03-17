@@ -112,3 +112,4 @@ openmp/srad/srad_v2/srad
 common/opencl.host.make.config
 common/openmp.host.make.config
 
+main

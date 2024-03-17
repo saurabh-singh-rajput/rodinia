@@ -30,6 +30,11 @@ __global__ void wiAtomicOnGlobalMem(T* result, int size, int n)
 {
   unsigned int tid = blockIdx.x * blockDim.x + threadIdx.x;
   atomicAdd(&result[tid/size], tid % 2);
+  // if (sizeof(T) == sizeof(int)) {
+  //   atomicAdd((int*)&result[tid/size], (int)(tid % 2));
+  // } else if (sizeof(T) == sizeof(float)) {
+  //     atomicAdd((float*)&result[tid/size], (float)(tid % 2));
+  // }
 }
 
 template <typename T>
